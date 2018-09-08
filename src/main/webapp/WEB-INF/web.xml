@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TloginController</servlet-name>
+  	<display-name>TloginController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.TloginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetProjectController</servlet-name>
+  	<display-name>GetProjectController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.GetProjectController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveProjectController</servlet-name>
+  	<display-name>SaveProjectController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.SaveProjectController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AloginController</servlet-name>
+  	<display-name>AloginController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.AloginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewProjectController</servlet-name>
+  	<display-name>ViewProjectController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.ViewProjectController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutController</servlet-name>
+  	<display-name>LogoutController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.LogoutController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetReportController</servlet-name>
+  	<display-name>GetReportController</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.GetReportController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>REGF</servlet-name>
+  	<display-name>REGF</display-name>
+  	<description></description>
+  	<servlet-class>com.ecoportal.model.REGF</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TloginController</servlet-name>
+  	<url-pattern>/TloginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetProjectController</servlet-name>
+  	<url-pattern>/GetProjectController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveProjectController</servlet-name>
+  	<url-pattern>/SaveProjectController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AloginController</servlet-name>
+  	<url-pattern>/AloginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewProjectController</servlet-name>
+  	<url-pattern>/ViewProjectController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutController</servlet-name>
+  	<url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetReportController</servlet-name>
+  	<url-pattern>/GetReportController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>REGF</servlet-name>
+  	<url-pattern>/REGF</url-pattern>
+  </servlet-mapping>
+</web-app>
